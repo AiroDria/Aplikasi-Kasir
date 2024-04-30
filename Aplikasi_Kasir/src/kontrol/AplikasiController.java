@@ -98,7 +98,7 @@ public class AplikasiController {
             if(FrameUtama.StatusLogin.getText().equals("TRUE")) {
                 FormLogin lf = new FormLogin();
             
-                int konfirmasi = JOptionPane.showConfirmDialog(fu, "Apfuah anda yakin ingin logout?", "Konfirmasi", JOptionPane.YES_NO_OPTION);
+                int konfirmasi = JOptionPane.showConfirmDialog(fu, "Apakah anda yakin ingin logout?", "Konfirmasi", JOptionPane.YES_NO_OPTION);
                 
                 if(konfirmasi == JOptionPane.YES_OPTION) {
                     JOptionPane.showMessageDialog(fu, "Berhasil logout dari akun!", "Pesan", JOptionPane.INFORMATION_MESSAGE);
